@@ -1,0 +1,17 @@
+//URI-1009
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    char name[100];
+    cin>>name;
+    double salary,sales;
+    cin>>salary>>sales;
+    double total=salary+(15*sales)/100;
+   
+    cout<<fixed;
+    cout<<setprecision(2)<<"TOTAL "<<"="<<" "<<"R$ "<<total<<"\n";
+    return 0;
+}
