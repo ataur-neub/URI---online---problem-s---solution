@@ -1,0 +1,19 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+   int codeOfProduct1,numberOfUnitsOfProduct1,codeOfProduct2,numberOfUnitsOfProduct2;
+   float priceOfProduct1,priceOfProduct2,sum1,sum2,total;
+   cin>>codeOfProduct1>>numberOfUnitsOfProduct1>>priceOfProduct1;
+   cin>>codeOfProduct2>>numberOfUnitsOfProduct2>>priceOfProduct2;
+   sum1=numberOfUnitsOfProduct1*priceOfProduct1;
+   sum2=numberOfUnitsOfProduct2*priceOfProduct2;
+   total=sum1+sum2;
+   cout<<fixed;
+   cout<<setprecision(2)<<"VALOR A PAGAR: R$ "<<total<<"\n";
+   
+
+    return 0;
+}
