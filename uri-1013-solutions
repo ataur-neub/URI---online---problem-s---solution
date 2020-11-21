@@ -1,0 +1,21 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+   int a,b,c,max1,max2;
+   cin>>a>>b>>c;
+   max1=((a+b)+abs(a-b))/2;
+   
+   max2=((b+c)+abs(b-c))/2;
+   if(max1>max2){
+       cout<<max1<<" eh o maior"<<"\n";
+   }
+   else{
+       cout<<max2<<" eh o maior"<<"\n";
+   }
+   
+   
+    return 0;
+}
